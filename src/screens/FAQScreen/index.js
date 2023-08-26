@@ -1,4 +1,3 @@
-// FAQScreen.js
 import Footer from "../../components/patterns/Footer";
 import Link from "../../components/Link";
 import { theme } from "../../theme/theme";
@@ -62,7 +61,7 @@ export default function FAQScreen({ faq }) {
               <Link
                 href="mailto:contato@alura.com.br"
                 styleSheet={{
-                  color: theme.colors.primary[400],
+                  color: theme.colors.primary[300],
                   hover: {
                     color: theme.colors.primary[300],
                   },
